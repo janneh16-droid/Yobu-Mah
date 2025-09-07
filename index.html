@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yobu'Mah Taxi Service offers premium 24/7 taxi rides in Gambia, including airport pickups, corporate travel, city tours, and school runs.">
+    <meta name="keywords" content="taxi service, Gambia taxi, airport pickup, corporate travel, city tours, school runs, Yobu'Mah Taxi">
+    <meta name="robots" content="index, follow">
+    <title>Yobu'Mah Taxi Service - Premium Rides in Gambia</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#004aad">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header, section, footer {
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            background-color: #004aad;
+            color: white;
+        }
+        h1, h2 {
+            margin: 0.5em 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        a {
+            color: #004aad;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        footer {
+            background-color: #f4f4f4;
+            margin-top: 20px;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="icons/icon-192.png" alt="Yobu'Mah Logo" width="80">
+        <h1>Yobu'Mah Taxi Service</h1>
+        <p>Premium Rides in The Gambia – Anytime, Anywhere</p>
+    </header>
+
+    <section>
+        <h2>Our Services</h2>
+        <ul>
+            <li>✅ 24/7 Airport Pickups</li>
+            <li>✅ Corporate Travel & Meetings</li>
+            <li>✅ Comfortable City Tours</li>
+            <li>✅ School Runs & Family Transport</li>
+        </ul>
+        <a href="tel:+220XXXXXXX" class="cta-button">Call Us Now</a>
+        <a href="mailto:info@yobumah.com" class="cta-button">Book via Email</a>
+    </section>
+
+    <section>
+        <h2>Why Choose Us?</h2>
+        <p>🚖 Professional drivers | 🚙 Clean & Comfortable Cars | ⏰ Always on Time | 🌍 Serving all major towns in The Gambia</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Yobu'Mah Taxi Service. All Rights Reserved.</p>
+        <p>📞 +220 XXX XXXX | ✉ info@yobumah.com</p>
+    </footer>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("service-worker.js")
+                .then(() => console.log("Service Worker registered"));
+        }
+    </script>
+</body>
+</html>
