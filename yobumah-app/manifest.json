@@ -1,0 +1,21 @@
+{
+  "name": "Yobu'Mah Taxi Service",
+  "short_name": "Yobu'Mah",
+  "description": "Where Every Ride is First Class. Premium taxi service in The Gambia.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#004aad",
+  "theme_color": "#004aad",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
